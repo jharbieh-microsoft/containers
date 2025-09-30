@@ -1,4 +1,3 @@
-
 # Azure container platforms — summary & table of contents
 
 This repository contains short reference documents for Azure container platforms as top-level files. Below is a concise summary and a linked table of contents that points to each file with a one-line description to help you find the right topic quickly.

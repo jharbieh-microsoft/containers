@@ -1,0 +1,20 @@
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Mac
+.DS_Store
