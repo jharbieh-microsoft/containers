@@ -1,5 +1,7 @@
 Azure Spring Apps (previously known as Azure Spring Boot App Service or Azure Spring Cloud) is a fully managed Platform-as-a-Service (PaaS) tailored for Spring Boot and Spring Cloud applications.
 
+> **Retirement notice:** Microsoft has announced the retirement of Azure Spring Apps. New customers should not plan new deployments, and existing customers should consult the retirement guidance and migration options. See the announcement and migration guidance in References below. [^3]
+
 ---
 
 ## What it is
@@ -30,4 +32,5 @@ Azure Spring Apps provides a managed, Spring-first hosting environment that simp
 
 [^1]: https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/overview
 [^2]: https://spring.io/guides/gs/spring-boot-for-azure
+[^3]: https://learn.microsoft.com/en-us/azure/spring-apps/basic-standard/retirement-announcement
 
