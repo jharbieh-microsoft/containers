@@ -16,6 +16,9 @@ The `containers/` docs cover managed Kubernetes (AKS), AKS variants for automati
 - [CONTAINER_APPS.md](./CONTAINER_APPS.md) — Azure Container Apps: serverless, event-driven, microservices platform with scale-to-zero and deep Azure integration.
 - [CONTAINER_INSTANCES.md](./CONTAINER_INSTANCES.md) — Azure Container Instances (ACI): fast, VM‑less containers for short-lived or burst workloads with per-second billing.
 - [SERVICE_FABRIC.md](./SERVICE_FABRIC.md) — Azure Service Fabric: distributed systems platform for building scalable, reliable stateful and stateless microservices.
+- [AZURE_ARC](./AZURE_ARC.md) - Azure Arc: hybrid and multi-cloud management platform that extends Azure services and governance to on-premises, edge, and other clouds.
+- [AZURE_FLEET_MANAGER](./AZURE_FLEET_MANAGER.md) - Azure Kubernetes Fleet Manager: centralized multi-cluster management platform for orchestrating, monitoring, and maintaining multiple AKS clusters across regions and environments.
+- [RECOMMENDATIONS.md](./RECOMMENDATIONS.md) — Container platform recommendations: guidance on choosing the right Azure container platform based on environment and workload characteristics.
 
 ## How to use
 
