@@ -18,6 +18,8 @@ The `containers/` docs cover managed Kubernetes (AKS), AKS variants for automati
 - [SERVICE_FABRIC.md](./SERVICE_FABRIC.md) — Azure Service Fabric: distributed systems platform for building scalable, reliable stateful and stateless microservices.
 - [AZURE_ARC](./AZURE_ARC.md) - Azure Arc: hybrid and multi-cloud management platform that extends Azure services and governance to on-premises, edge, and other clouds.
 - [AZURE_FLEET_MANAGER](./AZURE_FLEET_MANAGER.md) - Azure Kubernetes Fleet Manager: centralized multi-cluster management platform for orchestrating, monitoring, and maintaining multiple AKS clusters across regions and environments.
+- [AZURE_SPRING_BOOT.md](./AZURE_SPRING_BOOT.md) — Azure Spring Apps: fully managed PaaS for running Spring Boot and Spring Cloud applications with automated infrastructure management and built-in Spring features.
+- [AZURE_REDHAT_OPENSHIFT.md](./AZURE_REDHAT_OPENSHIFT.md) — Azure Red Hat OpenShift (ARO): fully managed OpenShift service jointly operated by Microsoft and Red Hat for enterprise Kubernetes workloads with integrated Azure services.
 - [RECOMMENDATIONS.md](./RECOMMENDATIONS.md) — Container platform recommendations: guidance on choosing the right Azure container platform based on environment and workload characteristics.
 
 ## How to use
