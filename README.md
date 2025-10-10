@@ -22,6 +22,21 @@ The `containers/` docs cover managed Kubernetes (AKS), AKS variants for automati
 - [AZURE_REDHAT_OPENSHIFT.md](./AZURE_REDHAT_OPENSHIFT.md) — Azure Red Hat OpenShift (ARO): fully managed OpenShift service jointly operated by Microsoft and Red Hat for enterprise Kubernetes workloads with integrated Azure services.
 - [RECOMMENDATIONS.md](./RECOMMENDATIONS.md) — Container platform recommendations: guidance on choosing the right Azure container platform based on environment and workload characteristics.
 
+## When to choose (quick decision guide)
+
+Use this quick guide to pick an Azure container option based on common requirements. Each line links to the fuller document above for details.
+
+- Need full Kubernetes control and run complex containerized microservices? — Use AKS (`AKS.md`).
+- Want a hands-off, managed Kubernetes experience with opinionated defaults? — Consider AKS Automatic (`AKS_AUTOMATIC.md`).
+- Running on-premises or edge devices with cloud management? — Use AKS Edge Essentials + Azure Arc (`AKS_EDGE_ESSENTIALS.md`, `AZURE_ARC.md`).
+- Need serverless scale, scale-to-zero, and event-driven microservices? — Use Azure Container Apps (`CONTAINER_APPS.md`).
+- Run single, short-lived containers without orchestration? — Use Azure Container Instances (ACI) (`CONTAINER_INSTANCES.md`).
+- Host web apps packaged as containers with PaaS features (TLS, routing, slots)? — Use Web App for Containers (`APPSERVICE_WEBAPP_CONTAINERS.md`).
+- Require a managed OpenShift platform with enterprise support? — Use Azure Red Hat OpenShift (ARO) (`AZURE_REDHAT_OPENSHIFT.md`).
+- Running Spring Boot/Cloud workloads and prefer a Spring-first managed PaaS? — Historically Azure Spring Apps (`AZURE_SPRING_BOOT.md`) — note: this service has a published retirement announcement; consult the Spring Apps doc for details and migration guidance.
+- Need stateful microservices and strong actor/replicated state models? — Use Service Fabric (`SERVICE_FABRIC.md`).
+
+
 ## How to use
 
 - Open any file for a focused overview, core concepts, features, and common use cases (for example, `AKS.md`).
